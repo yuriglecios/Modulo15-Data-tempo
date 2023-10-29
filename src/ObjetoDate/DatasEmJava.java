@@ -10,5 +10,6 @@ public class DatasEmJava {
         System.out.println("Dia da semana: " + data.getDay());
         System.out.println("Hora do dia: " + data.getHours());
         System.out.println("Minuto do dia: " + data.getMinutes());
+        //teste
     }
 }
