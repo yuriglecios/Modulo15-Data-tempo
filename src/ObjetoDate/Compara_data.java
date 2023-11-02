@@ -7,8 +7,8 @@ import java.util.Date;
 public class Compara_data {
     public static void main(String[] args) throws ParseException {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyyy");
-        Date dataBoleto = simpleDateFormat.parse("10/04/2024");
-        Date dataAtual = simpleDateFormat.parse("29/10/2023");
+        Date dataBoleto = simpleDateFormat.parse("10/04/2023");
+        Date dataAtual = simpleDateFormat.parse("02/11/2023");
 
         if (dataBoleto.after(dataAtual)){
             System.out.println("seu boleto esta em dia. PARABENS!");
